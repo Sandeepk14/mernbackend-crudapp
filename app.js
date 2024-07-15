@@ -14,5 +14,5 @@ app.use("/files", express.static("./public/files"));
 app.use(router);
 
 app.listen(PORT, () => {
-  console.log(`Server start at port no ${PORT}`);
+  console.log(`Server is start at port no ${PORT}`);
 });
